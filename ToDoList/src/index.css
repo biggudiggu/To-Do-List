@@ -1,0 +1,92 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: hsl(180, 15%, 72%);
+  margin-top: 50px;
+}
+
+.toDoList-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 5px hsla(187, 4%, 54%, 0.5);
+}
+
+h1 {
+  font-size: 4rem;
+  color: hsl(192, 4%, 54%);
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-top: 0;
+  position: relative;
+}
+
+input[type="text"] {
+  font-size: 1.3rem;
+  padding: 10px;
+  position: relative;
+  border-radius: 15px;
+  border: 1px solid hsla(180, 1%, 85%, 0.3);
+  color: hsl(192, 4%, 24%);
+  box-shadow: 2px 2px 2px hsla(187, 4%, 64%, 0.5);
+  background-color: hsla(187, 4%, 84%, 0.3);
+  min-width: 300px;
+}
+
+.addBtn {
+  font-size: 2rem;
+  position: absolute;
+  right: 10px;
+  padding: 0;
+  margin: 0;
+  background-color: hsla(187, 4%, 84%, 0.05);
+  border: none;
+
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+li {
+  font-size: 1.3rem;
+  color: hsl(192, 4%, 24%);
+  border: 1px solid hsla(180, 1%, 85%, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 1px hsla(187, 4%, 64%, 0.5);
+  background-color: hsla(187, 4%, 84%, 0.3);
+  min-width: 300px;
+}
+
+.text {
+  flex: 1;
+}
+
+.upBtn,
+.downBtn,
+.deleteBtn {
+  font-size: 1.5rem;
+  background-color: hsla(187, 4%, 84%, 0.05);
+  border: none;
+  margin-left: 10px;
+}
